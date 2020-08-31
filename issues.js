@@ -9,7 +9,7 @@ async function getIssuesPrivate() {
         const username = username
         const password = password
         const headers = {
-            "Authorization" : `Token b6dd7808fb38eef7e07c67de30615bf3d385d88b `
+            "Authorization" : `Token `
         }
         const url = "https://api.github.com/search/issues?q=repo:dshankar4/E-Commerce type:issue"
         const response = await axios.get(url, {
